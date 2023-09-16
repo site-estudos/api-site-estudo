@@ -17,4 +17,4 @@ Arquitetura hexagonal de Alistair Cockburn. :man:
 
 ## Base dados
 
-Nesse projeto utilizaremos a base de dados MongoDB
+Nesse projeto utilizaremos a base de dados MongoDB, devido sua simplicidade de uso.
