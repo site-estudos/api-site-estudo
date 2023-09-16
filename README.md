@@ -14,3 +14,7 @@ Arquitetura hexagonal de Alistair Cockburn. :man:
 
 - https://alistair.cockburn.us/hexagonal-architecture/
 - https://www.linkedin.com/pulse/arquitetura-hexagonal-com-golang-vinicius-nordi-esperan%C3%A7a/?originalSubdomain=pt
+
+## Base dados
+
+Nesse projeto utilizaremos a base de dados MongoDB
