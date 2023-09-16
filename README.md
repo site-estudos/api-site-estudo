@@ -6,7 +6,7 @@ O estudo de golang veio como uma proposta do curso, com o intuíto de aprender u
 
 ## Arquitetura
 
-Arquitetura hexagonal de Alistair Cockburn. :man_beard:
+Arquitetura hexagonal de Alistair Cockburn. :man:
 
  Objetivo: desenvolver o conhecimento nesse tipo de arquitetura.
 
