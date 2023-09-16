@@ -1,4 +1,4 @@
-# Site de Estudos 
+# Site de Estudos - Em construção :hammer:
 
 Site desenvolvido durante o curso de devops do ittalent2023. O objetivo do repositório é a criação de uma api com a finalidade de desafiar-se durante o curso. 
 
