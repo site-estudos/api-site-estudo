@@ -18,3 +18,17 @@ Arquitetura hexagonal de Alistair Cockburn. :man:
 ## Base dados
 
 Nesse projeto utilizaremos a base de dados MongoDB, devido sua simplicidade de uso, considerando que o mesmo é orientado a documentos e não possui relacionamentos e nem necessidade de normalização.
+
+## Documentação
+
+Utilizamos o swagger para documentar a API.
+
+##### Pacotes
+
+- go get -u github.com/swaggo/swag/cmd/swag
+- go get -u github.com/swaggo/gin-swagger
+- go get -u github.com/swaggo/files
+
+ ##### Necessário exportar a variável de ambiente
+ 
+- export PATH=$(go env GOPATH)/bin:$PATH
