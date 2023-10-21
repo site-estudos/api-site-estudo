@@ -38,3 +38,5 @@ Utilizamos o swagger para documentar a API.
 ##### Evolução da modelagem do banco
 
 ![Database](/src/utils/svg/initialDatabase.svg)
+
+Em construção :hammer:
