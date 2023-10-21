@@ -6,18 +6,20 @@ O estudo de golang veio como uma proposta do curso, com o intuíto de aprender u
 
 ## Arquitetura
 
-Arquitetura hexagonal de Alistair Cockburn. :man:
+Arquitetura em camadas. 
 
- Objetivo: desenvolver o conhecimento nesse tipo de arquitetura.
+Objetivo: Utilizar Drive Domain Design (DDD) para modelagem do software. 
 
 ##### Links:
+
+Links de apoio para criação da arquitetura hexagonal caso adotemos a mesma no decorrer do desenvolvimento.
 
 - https://alistair.cockburn.us/hexagonal-architecture/
 - https://www.linkedin.com/pulse/arquitetura-hexagonal-com-golang-vinicius-nordi-esperan%C3%A7a/?originalSubdomain=pt
 
 ## Base dados
 
-Nesse projeto utilizaremos a base de dados MongoDB, devido sua simplicidade de uso, considerando que o mesmo é orientado a documentos e não possui relacionamentos e nem necessidade de normalização.
+Nesse projeto utilizaremos a base de dados SQL.
 
 ## Documentação
 
@@ -29,6 +31,10 @@ Utilizamos o swagger para documentar a API.
 - go get -u github.com/swaggo/gin-swagger
 - go get -u github.com/swaggo/files
 
- ##### Necessário exportar a variável de ambiente
+##### Necessário exportar a variável de ambiente
  
 - export PATH=$(go env GOPATH)/bin:$PATH
+
+##### Evolução da modelagem do banco
+
+![Database](/src/utils/svg/initialDatabase.svg)
