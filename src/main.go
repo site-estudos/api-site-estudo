@@ -12,5 +12,8 @@ func main() {
 
 	//user endpoint
 	router.POST("/user", controller.PostUser)
+
+	//login endpoint
+	router.POST("/login", controller.PostLogin)
 	router.Run(":8080")
 }
